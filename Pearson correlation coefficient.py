@@ -12,10 +12,10 @@ np.random.seed(42)
 
 CONFIG = {
     "train_data_path": r"G:\model2date\pmic_filtered_double_train_data.csv",
-    "save_root": r"C:\Users\lyh\Desktop\ML-date",
-    "corr_heatmap_path": os.path.join(r"C:\Users\lyh\Desktop\ML-date", "rf_feature_top30_corr_heatmap.png"),
-    "corr_matrix_excel": os.path.join(r"C:\Users\lyh\Desktop\ML-date", "rf_feature_top30_corr_matrix.xlsx"),
-    "feature_importance_excel": os.path.join(r"C:\Users\lyh\Desktop\ML-date", "rf_feature_importance_top30.xlsx")
+    "save_root": r"C:\Users\刘雲浩\Desktop\ML-date",
+    "corr_heatmap_path": os.path.join(r"C:\Users\刘雲浩\Desktop\ML-date", "rf_feature_top30_corr_heatmap.png"),
+    "corr_matrix_excel": os.path.join(r"C:\Users\刘雲浩\Desktop\ML-date", "rf_feature_top30_corr_matrix.xlsx"),
+    "feature_importance_excel": os.path.join(r"C:\Users\刘雲浩\Desktop\ML-date", "rf_feature_importance_top30.xlsx")
 }
 
 EXCLUDE_COLS = ['smiles', 'pMIC', 'residual', 'MIC']
